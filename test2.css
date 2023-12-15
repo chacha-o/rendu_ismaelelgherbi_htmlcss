@@ -1,0 +1,72 @@
+body {
+  background-color: #000000;
+  flex-wrap: wrap;
+}
+
+.cv {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  background-color: #d3a625;
+  border-radius: 55px;
+}
+
+.barre-gauche {
+  background-color: #740001;
+  padding: 20px;
+}
+
+.droit {
+  padding: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+h2 {
+  color: #eeba30;
+}
+
+.exp {
+  color: rgb(0, 0, 0);
+  padding: 60px;
+}
+.info {
+  padding: 20px;
+  color: #d3a625;
+}
+
+.lorem {
+  padding: 60px;
+}
+
+.text2 {
+  padding: 60px;
+  color: black;
+}
+.passion {
+  color: black;
+  padding: 60px;
+}
+.text3 {
+  padding: 60px;
+  color: black;
+}
+.nom-photo {
+  color: #d3a625;
+  padding: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px;
+}
+nav a {
+  transition: color 0.3s ease;
+  font-size: 2.2rem;
+  color: aliceblue;
+}
+nav a:hover {
+  color: #abffff;
+}
