@@ -1,0 +1,96 @@
+.navbar {
+  background-color: #740001;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #740001;
+  padding: 10px;
+}
+main {
+  background-color: #d3a625;
+}
+
+.nav-links {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+nav a {
+  transition: color 0.3s ease;
+  font-size: 2.2rem;
+  color: #d3a625;
+}
+nav a:hover {
+  color: #f9ffab;
+}
+.griffondor {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  color: #490001;
+}
+.griffondor p {
+  width: 60%;
+  text-align: center;
+}
+
+.perso {
+  display: flex;
+}
+.image-text {
+  padding: 100px;
+}
+
+.serpentard {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  color: #272727;
+  background-color: #367c54;
+}
+.serpentard p {
+  width: 60%;
+  text-align: center;
+}
+.poufsouffle {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  color: #ecb939;
+  background-color: #372e29;
+}
+.poufsouffle p {
+  width: 60%;
+  text-align: center;
+}
+.serdaigle {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  color: #946b2d;
+  background-color: #0e1a40;
+}
+.serdaigle p {
+  width: 60%;
+  text-align: center;
+}
