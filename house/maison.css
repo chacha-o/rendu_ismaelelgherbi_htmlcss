@@ -50,6 +50,7 @@ nav a:hover {
 
 .perso {
   display: flex;
+  flex-wrap: wrap;
 }
 .image-text {
   padding: 100px;
@@ -93,4 +94,12 @@ nav a:hover {
 .serdaigle p {
   width: 60%;
   text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #050225;
+  color: #a38125;
+  padding-left: 50px;
 }
