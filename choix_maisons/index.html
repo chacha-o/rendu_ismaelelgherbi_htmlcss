@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+            <div class="changeTheme">Dark Mode</div>
+
+
+    <script>
+    
+    const switchThemeBtn = document.querySelector('.changeTheme')
+    let toggleTheme = 0;
+    
+
+    switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+            document.documentElement.style.setProperty('--ecriture', '#262626');
+            document.documentElement.style.setProperty('--background', '#f1f1f1');
+            toggleTheme++;
+
+        } else {
+
+            document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+            document.documentElement.style.setProperty('--background', '#262626');
+            toggleTheme--;
+
+        }
+
+
+    })
+    
+    
+    </script>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="/main/page_site.html">home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Toutes les maisons</li>
+          <li data-filter="SLYTHERIN">SLYTHERIN</li>
+          <li data-filter="GRYFFONDOR">GRYFFONDOR</li>
+          <li data-filter="HUFFLEPUFF">HUFFLEPUFF</li>
+          <li data-filter="RAVENCLAW">RAVENCLAW</li>
+        </ul>
+      </div>
+
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="GRYFFONDOR">
+          <div class="card-header">
+            <p class="card-title">GRYFFONDOR</p>
+            <div class="card-axe">Courageuse</div>
+          </div>
+
+          <a
+            href="https://logohistory.net/wp-content/uploads/2023/12/Gryffindor-Logo.png"
+          >
+            <img
+              src="https://logohistory.net/wp-content/uploads/2023/12/Gryffindor-Logo.png"
+              alt="GRYFFONDOR"
+            />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="HUFFLEPUFF">
+          <div class="card-header">
+            <p class="card-title">HUFFLEPUFF</p>
+            <div class="card-axe">Loyale</div>
+          </div>
+
+          <a
+            href="https://juststickers.in/wp-content/uploads/2019/07/hufflepuff-handart.png"
+          >
+            <img
+              src="https://juststickers.in/wp-content/uploads/2019/07/hufflepuff-handart.png"
+              alt="HUFFLEPUFF"
+            />
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="SLYTHERIN">
+          <div class="card-header">
+            <p class="card-title">SLYTHERIN</p>
+            <div class="card-axe">Ambitieuse</div>
+          </div>
+
+          <a
+            href="https://1000logos.net/wp-content/uploads/2023/05/Slytherin-Logo.png"
+          >
+            <img
+              src="https://1000logos.net/wp-content/uploads/2023/05/Slytherin-Logo.png"
+              alt="SLYTHERIN"
+            />
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="RAVENCLAW">
+          <div class="card-header">
+            <p class="card-title">RAVENCLAW</p>
+            <div class="card-axe">Sagesse</div>
+          </div>
+
+          <a
+            href="https://logos-world.net/wp-content/uploads/2022/11/Ravenclaw-Symbol.png"
+          >
+            <img
+              src="https://logos-world.net/wp-content/uploads/2022/11/Ravenclaw-Symbol.png"
+              alt="RAVENCLAW"
+            />
+          </a>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"
+      integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <!-- Script en javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>

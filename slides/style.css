@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vh;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  color: aliceblue;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.slide-dw {
+  background-image: url("./dw.webp");
+  background-size: cover;
+}
+.slide-dw {
+  background-image: url("./cd.webp");
+  background-size: cover;
+}
+.slide-dw {
+  background-image: url(".cdeb.webp");
+  background-size: cover;
+}
+
+#slide1 {
+  background-image: url("https://juststickers.in/wp-content/uploads/2019/07/hufflepuff-handart.png");
+}
+
+#slide2 {
+  background-image: url("https://logos-world.net/wp-content/uploads/2022/11/Ravenclaw-Symbol.png");
+}
+
+#slide3 {
+  background-image: url("https://1000logos.net/wp-content/uploads/2023/05/Slytherin-Logo.png");
+}
+
+#slide4 {
+  background-image: url("https://logohistory.net/wp-content/uploads/2023/12/Gryffindor-Logo.png");
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #740001;
+  padding: 10px;
+}
+main {
+  background-color: #d3a625;
+}
+
+.nav-links {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+nav a {
+  transition: color 0.3s ease;
+  font-size: 2.2rem;
+  color: #d3a625;
+}
+nav a:hover {
+  color: #f9ffab;
+}
+
+
+
+

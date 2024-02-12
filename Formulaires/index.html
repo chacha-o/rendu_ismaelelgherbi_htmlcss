@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <body>
+        <div class="changeTheme">Dark Mode</div>
+
+
+    <script>
+    
+    const switchThemeBtn = document.querySelector('.changeTheme')
+    let toggleTheme = 0;
+    
+
+    switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+            document.documentElement.style.setProperty('--ecriture', '#262626');
+            document.documentElement.style.setProperty('--background', '#f1f1f1');
+            toggleTheme++;
+
+        } else {
+
+            document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+            document.documentElement.style.setProperty('--background', '#262626');
+            toggleTheme--;
+
+        }
+
+
+    })
+    
+    
+    </script>
+    
+     <header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="/main/page_site.html">home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="message-error">
+      <ul></ul>
+    </div>
+
+    <div class="message-success">formulaire envoyé avec succès !</div>
+<div class="bleu">
+    <form action="" method="post" enctype="muktipart/form-data">
+      <div>
+        <label for="pseudo">pseudo</label>
+        <input type="text" id="pseudo" name="pseudo" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <div>
+        <label for="password2">Confirmer mot de passe</label>
+        <input type="password" id="password2" name="password2" />
+      </div>
+</div>
+      <button type="submit">S'inscrire</button>
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>
